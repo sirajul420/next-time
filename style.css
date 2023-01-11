@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+.logo-img{
+    width: 220px;
+}
+.changeable{
+    color: black;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.changeable:hover{
+    color:aqua;
+}
+.one{
+    padding: 10px 30px;
+}
+.clor:hover{
+    color: aqua;
+}
+.two{
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+nav{
+    background-color: white;
+}
+.content{
+    background-color: blue;
+}
+.content p{
+    width: 50%;
+    margin: auto;
+}
+@media screen and (max-width:600px) {
+    .two{
+        width: 100%;
+    }
+    .content p{
+        width: 100%;
+        margin: auto;
+    }
+}
